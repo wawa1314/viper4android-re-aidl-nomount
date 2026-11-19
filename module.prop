@@ -1,0 +1,7 @@
+id=ViPER4Android-RE-AIDL
+name=ViPER4Android RE (AIDL)
+version=v2.1.2-nomount
+versionCode=20261119
+author=pittvandewitt, MrWhite214, Zackptg5, Martmists, Iscle, llsl
+description=ViPER4Android Reverse Engineered for Android 15+ AIDL audio HAL
+updateJson=https://raw.githubusercontent.com/likelikeslike/ViPERFX_RE/dev/magisk/update-aidl.json

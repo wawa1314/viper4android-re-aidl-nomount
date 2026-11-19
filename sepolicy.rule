@@ -1,0 +1,11 @@
+type viper_control_service service_manager_type
+allow hal_audio_default viper_control_service service_manager add
+allow mtk_hal_audio viper_control_service service_manager add
+allow hal_audio_default default_android_service service_manager add
+allow mtk_hal_audio default_android_service service_manager add
+allow untrusted_app viper_control_service service_manager find
+allow untrusted_app default_android_service service_manager find
+allow hal_audio_default servicemanager binder { call transfer }
+allow mtk_hal_audio servicemanager binder { call transfer }
+allow untrusted_app hal_audio_default binder { call transfer }
+allow untrusted_app mtk_hal_audio binder { call transfer }
